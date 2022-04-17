@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 1em 0;
+}
+
+p{
+    text-align: center;
+    
+}
+
+img{
+    margin: .3em;
+    border: 1px solid white;
+    padding: 5px;
+}
+img:hover{
+    border-color: red;
+    
+}
+.thumb{
+    width: 300px;
+
+}
+.link{
+    margin: 20px 0;
+}
+.link > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.link > a:hover{
+    color: red;
+}
+.back{
+    border: none;
+    display: grid;
+    place-content: center;
+    
+    
+}
+.back > a > img:hover{
+    filter: opacity(40%);
+    
+}
